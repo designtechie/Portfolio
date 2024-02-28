@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+
+
+*{
+   
+    margin: 0px;
+   
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:50vh;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+
+#root {
+    max-width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply text-lg
+   
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+    z-index: 10;
+  }
+  
+
+
+
+.projects img {
+    width: 100%;
+}
+
+/* color */
+.bg-primary {
+    
+    background: #10081D;
+}
+
+
+  
+.bg-header {
+    background: #5c39a71a;
+    backdrop-filter: blur(20px);
+}
+.bg-secondery {
+    background: #10081d;
+}
+
+.bg-accent {
+    background: #1B1A55;
+}
+
+
+
+.hero-text {
+   
+    font-weight: bold;
+   
+}
+
+.htext {
+    color: #fff;
+}
+
+.logo {
+   @apply text-2xl font-bold;
+}
+nav li a {
+    @apply px-4 py-5 text-lg font-medium htext;
+}
+
+nav li a:hover {
+    color: #825aee;
+   
+}
+
+.mobile-nav {
+    @apply block md:hidden fixed top-20 py-4 w-full h-full bg-white duration-500;
+}
+
+
+/* hero */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5 !important;
+    color: #202020;
+}
+
+img {
+    border-radius: 20px;
+    width: 400px;
+    height: auto;
+}
+
+.flexiocns{
+    color: #0F172A;
+}
+
+.btn {
+    @apply bg-accent my-8 rounded-md border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent
+}
+
+.icons {
+    @apply flex-auto py-8
+}
+
+/* Projects */
+
+.relative img {
+   @apply min-h-max
+}
+
+
+
+
+/* Media query for screens with a maximum width of 768px (adjust this value as needed) */
+@media screen and (max-width: 390px) {
+    /* Hide the navigation by default on smaller screens */
+    .mobile-nav {
+      display: none;
+     
+    }
+  
+    /* Show the navigation when the toggle is active */
+    .mobile-nav.left-0 {
+      display: block;
+    }
+  
+    /* Add styles to the mobile menu container */
+    .mobile-menu {
+      position: relative; /* To contain absolutely positioned elements */
+      z-index: 999; 
+      /* Ensure the mobile menu appears on top */
+    }
+  
+    /* Add styles to the individual menu items for better spacing */
+    .mobile-nav li {
+      margin: 10px 0;
+      color: #7477FF;
+     
+    }
+  }
+  
