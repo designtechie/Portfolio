@@ -89,7 +89,7 @@ const Projects = () => {
 
   return (
     
-    <section className="bg-primary text-white px-16 py-32" id="projects ">
+    <section className="bg-primary text-white px-16 py-32" id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:center-between">
         <div className="about-info mb-5">
           <h2 className="text-4xl mb-5  pb-2 text-white font-bold  w-[300px] ">
