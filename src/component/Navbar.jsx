@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import logo from '../assets/logo.jpeg';
+import logo from '../assets/logo.png';
 import resume from '../assets/Resume.pdf';
 
 const Header = () => {
