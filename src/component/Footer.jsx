@@ -1,25 +1,65 @@
 import React from 'react';
+import {
+  AiOutlineBehance,
+  AiOutlineDribbble,
+  AiOutlineGithub,
+  AiOutlineMedium,
+} from 'react-icons/ai';
 
 const Footer = () => {
- return (
-    <footer className="bg-primary" id="contact">
-      <div className="w-full mx-auto max-w-screen-xl  md:flex md:items-center md:justify-between">
-        <div className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Krishna Chaitanya</span>
+  return (
+    <footer className="bg-primary text-white" id="contact">
+      <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row md:items-center md:justify-between">
+        <div className="mb-6 md:mb-0">
+          <div className="text-gray-300 mb-2 text-2xl md:text-4xl font-semibold">Get in touch</div>
+          <div className="text-white mb-2">Krishna Chaitanya</div>
+          <a href="mailto:krishnachaitanya0503@gmail.com" className="hover:underline text-white">
+            krishnachaitanya0503@gmail.com
+          </a>
         </div>
-        <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-          <li>
-            <a href="mailto:youremail@example.com" className="hover:underline me-4 md:me-6">krishnachaitanya0503@gmai.com</a>
-          </li>
-          <li>
-            <a href="tel:+1234567890" className="hover:underline me-4 md:me-6"></a>
-          </li>
-        </ul>
+
+        <div className="flex sm:flex justify-end sm:"> 
+         <div className="md:flex space-x-4"> 
+
+            <a
+              href="https://www.behance.net/designtechie"
+              className="mr-4 text-white hover:text-[#825aee]"  
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiOutlineBehance size={32} />
+            </a>
+            <a
+              href="https://dribbble.com/designtechie"
+              className="mr-4 text-white hover:text-[#825aee]"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiOutlineDribbble size={32} />
+            </a>
+            <a
+              href="https://medium.com/@designtechie"
+              className="mr-4 text-white hover:text-[#825aee]"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiOutlineMedium size={32} />
+            </a>
+            <a
+              href="https://github.com/designtechie"
+              className="mr-4 text-white hover:text-[#825aee]"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiOutlineGithub size={32} />
+            </a>
+          </div>
+        </div>
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 deisgntechie. All Rights Reserved.</span>
+      <span className="block text-sm text-gray-300 text-center">© 2024 designtechie. All Rights Reserved.</span>
     </footer>
- );
+  );
 };
 
 export default Footer;

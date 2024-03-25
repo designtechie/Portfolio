@@ -97,8 +97,7 @@ const Projects = () => {
           </h2>
           
           <p className="pb-5 text-white">
-            There are additional projects I've handled under confidentiality that aren't featured in my portfolio. However, I'm available for a call to discuss comprehensive project case studies.
-          </p>
+          Discover my meticulously crafted UX design projects, showcasing innovative solutions tailored to enhance user experiences and drive impactful results.          </p>
         </div>
 
         <div className="about-img"></div>

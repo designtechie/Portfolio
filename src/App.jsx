@@ -5,20 +5,26 @@ import Projects from "./component/Projects"
 import About from "./component/About"
 import Blogs from "./component/Blogs"
 import Footer from "./component/Footer"
+import Page from "./component/Page"
+
+
+
+
 function App() {
  
 
   return (
    
         
-        <>
+    <div>
         <Navbar/>
         <Hero/>
-        <Projects/>
+        <Page/>
+       
         <About/>
         <Blogs/>
         <Footer/>
-        </>
+        </div>
       )
     }
       

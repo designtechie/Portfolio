@@ -11,13 +11,11 @@ export default defineConfig({
     Pages({
       onRoutesGenerated: routes => (generateSitemap({ routes })),
     }),
-    
-    Sitemap({
-     
-    }),
+    Sitemap(),
  ],
+ server: {
+    watch: {
+      usePolling: true,
+    },
+  },
 });
-
-
-
-
