@@ -1,4 +1,4 @@
-<script type='text/javascript' id='pagemapIdscript' defer src='https://bot.linkbot.com/bot.js#35223-12ca2?property-id=35223-12ca2'></script>
+
 
 import React from 'react';
 import HeroImg from '../assets/hero-img.png';
@@ -64,8 +64,12 @@ const Hero = () => {
       <div className="downarrow flex justify-center items-center text-white bg-primary">
         <BiChevronDown size={24} />
       </div>
+
+      <script type='text/javascript' id='pagemapIdscript' defer src='https://bot.linkbot.com/bot.js#35223-12ca2?property-id=35223-12ca2'></script>
     </div>
   );
 };
 
 export default Hero;
+
+
