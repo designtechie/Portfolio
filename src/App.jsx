@@ -19,8 +19,8 @@ function App() {
     <div>
         <Navbar/>
         <Hero/>
-        <Page/>
-       
+   
+        <Projects/>
         <About/>
         <Blogs/>
         <Footer/>
