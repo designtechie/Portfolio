@@ -65,7 +65,7 @@ const Hero = () => {
         <BiChevronDown size={24} />
       </div>
 
-      <script type='text/javascript' id='pagemapIdscript' defer src='https://bot.linkbot.com/bot.js#35223-12ca2?property-id=35223-12ca2'></script>
+
     </div>
   );
 };
